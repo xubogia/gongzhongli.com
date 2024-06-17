@@ -2,32 +2,146 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+html,
+body,
+#__next {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.login-border {
+  width: 104px;
+  height: 35px;
+  top: 14px;
+  left: 1456px;
+  gap: 0;
+  border-radius: 4px;
+  background: linear-gradient(104.67deg, #1F91E5 5.33%, #E479FF 60.37%);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.login-success-block1{
+  background: linear-gradient(95.18deg, #E479FF 1.86%, #1F91E5 99.04%);
+  border-radius: 4px;
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.login-success-block2{
+  background: linear-gradient(128.1deg, rgba(120, 67, 206, 0.06) 28.03%, rgba(31, 145, 229, 0.06) 102.01%);
+  width: 196px;
+  height: 142px;
+  border-radius: 6px;
+
+}
+
+.login-success-block3:hover{
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.console-block1{
+  margin-top: 24px;
+  width: 1200px;
+  height: 403px;
+  border-radius: 20px ;;
+  background: linear-gradient(95.91deg, #012138 -2.54%, rgba(55, 20, 90, 0.12) 66.88%, rgba(228, 121, 255, 0.17) 109.55%);
+}
+
+.console-block1-text1{
+  font-family: PingFang SC;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67.2px;
+  text-align: left;
+  color: white;
+}
+
+.console-block1-button1{
+  width: 166px;
+  height: 60px;
+  border-radius: 12px;
+  background: linear-gradient(100.12deg, #1E90E5 1.03%, #E479FF 78.15%);
+
+}
+
+.console-block4{
+  width: 1200px;
+  height: 284px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.dashboard-block1{
+  border: 2px dashed rgba(147, 205, 255, 0.29);
+  width: 864px;
+  height: 435px;
+  border-radius: 20px;
+  background: linear-gradient(119.14deg, rgba(49, 78, 103, 0.1) 31.81%, rgba(33, 19, 57, 0.1) 98.05%);
+
+
+}
+
+.dashboard-button1{
+  background: linear-gradient(90deg, #2A92DE 0%, #42F4FF 100%);
+  width: 166px;
+  height: 60px;
+  padding: 13px 35px 13px 35px;
+  gap: 10px;
+  border-radius: 12px;
+
+}
+
+.dashboard-button2:hover{
+
+  background: rgba(255, 255, 255, 0.09);
+}
+
+.dashboard-file1{
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.preview-block1{
+  background: rgba(54, 59, 73, 0.6);
+}
+
+.preview-block2{
+  background: rgba(54, 59, 73, 0.52);
+}
+
+.preview-block3{
+  background: rgba(54, 59, 73, 0.6);
+}
+.preview-block4{
+  background: rgba(0, 0, 0, 0.4);
+}
+.preview-block5{
+  background: linear-gradient(109.71deg, #0C151C 3.23%, #120715 94.57%);
+  border: 1px solid rgba(194, 227, 255, 0.2)
+}
+
+.result-block1{
+  background: rgba(54, 59, 73, 0.6);
+}
+
+.result-block2{
+  background: rgba(13, 14, 18, 0.5);
+
+}
+
+.detail-block1{
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.detail-button1{
+  background: rgba(42, 146, 222, 1);
+}
+
+.detail-block2{
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.detail-block3{
+  background: rgba(255, 255, 255, 0.1);
+
 }
